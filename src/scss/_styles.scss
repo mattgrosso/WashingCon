@@ -19,3 +19,26 @@ body{
   font-size: 1.1em;
   margin-top: -11px;
 }
+
+.main-nav{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  ul{
+    margin: 2px auto;
+    li{
+      display: inline;
+      margin: 10px;
+      text-align: center;
+    }
+  }
+}
+
+.main-content{
+  clear: both;
+}
+
+.clear-fix{
+  clear: both;
+}

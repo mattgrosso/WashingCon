@@ -10,7 +10,7 @@
     <header>
       <img class="banner-image" ui-sref="home" src="/images/WashingCon.jpg" alt="WashingCon Logo"/>
       <h2 class="banner-subtitle">WASHINGTON DC'S OWN TABLETOP GAMING CONVENTION</h2>
-      <nav>
+      <nav class="main-nav">
         <ul>
           <li ui-sref="getinvolved">Get Involved</li>
           <li ui-sref="sponsors">Sponsors</li>
@@ -20,9 +20,10 @@
           <li ui-sref="registration">Registration</li>
           <li ui-sref="events">Events</li>
         </ul>
+        <div class="clear-fix"></div>
       </nav>
     </header>
-    <section ui-view></section>
+    <section class="main-content" ui-view></section>
 
 
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
