@@ -1,8 +1,9 @@
-
+// Main Universal
 body{
   border: 2px solid #E6E6E6;
   max-width: 1000px;
   margin: auto;
+  font-size: 100%;
 }
 
 .banner-image{
@@ -14,17 +15,17 @@ body{
 }
 
 .banner-subtitle{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   margin: auto;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.4em;
   margin-top: -11px;
 }
 
 .main-nav{
   margin-top: 35px;
   margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   text-align: center;
   ul{
     max-width: 70%;
@@ -51,8 +52,25 @@ body{
 
 .main-content{
   clear: both;
+  h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin: 10px 30px;
+    line-height: 1.5em;
+  }
 }
 
 .clear-fix{
   clear: both;
+}
+
+// Home Page
+.sponsor-logos{
+  margin: auto;
+  img{
+    height: 150px;
+    width: auto;
+    float: left;
+  }
 }
