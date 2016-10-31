@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
   'use strict';
 
-    grunt.loadNpmTasks('grunt-notify');
+    // grunt.loadNpmTasks('grunt-notify');
     grunt.initConfig({
 
       jshint: {
@@ -78,6 +78,7 @@ module.exports = function(grunt) {
 
     });
 
+    require('time-grunt')(grunt);
     require('load-grunt-tasks')(grunt);
 
     grunt.registerTask('js-build', ['concat:js', 'jshint']);
