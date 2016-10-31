@@ -39,7 +39,7 @@ a{
 .banner-image{
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 90%;
   cursor: pointer;
 }
@@ -49,11 +49,10 @@ a{
   margin: auto;
   text-align: center;
   font-size: 1.15em;
-  margin-top: -11px;
 }
 
 .main-nav{
-  margin-top: 35px;
+  margin-top: 45px;
   margin-bottom: 20px;
   font-family: 'Alegreya Sans', sans-serif;
   font-weight: 300;
@@ -84,13 +83,14 @@ a{
 
 .main-content{
   clear: both;
-  padding-top: 10px;
+  padding-top: 20px;
   h2{
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.3em;
     text-align: center;
-    margin: 10px 200px;
     line-height: 1.5em;
+    width: 80%;
+    margin: auto;
   }
 }
 
@@ -126,6 +126,7 @@ a{
 .sponsor-logos{
   width: 525px;
   margin: auto;
+  margin-top: 30px;
   padding: 20px;
   img{
     height: 150px;
