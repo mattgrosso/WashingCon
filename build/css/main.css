@@ -47,7 +47,7 @@ table {
 
 body {
   border: 2px solid #E6E6E6;
-  max-width: 1000px;
+  max-width: 1300px;
   margin: auto;
   font-size: 100%; }
 
@@ -59,10 +59,10 @@ body {
   cursor: pointer; }
 
 .banner-subtitle {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Merriweather', serif;
   margin: auto;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.15em;
   margin-top: -11px; }
 
 .main-nav {
@@ -78,6 +78,7 @@ body {
     .main-nav ul li {
       display: inline;
       margin: 10px;
+      font-size: 1.3em;
       text-align: center;
       cursor: pointer; }
       .main-nav ul li:hover {
@@ -89,19 +90,22 @@ body {
     margin-top: 0px; }
 
 .main-content {
-  clear: both; }
+  clear: both;
+  padding-top: 10px; }
   .main-content h2 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 1.3em;
     text-align: center;
-    margin: 10px 30px;
+    margin: 10px 200px;
     line-height: 1.5em; }
 
 .clear-fix {
   clear: both; }
 
 .sponsor-logos {
-  margin: auto; }
+  width: 525px;
+  margin: auto;
+  padding: 20px; }
   .sponsor-logos img {
     height: 150px;
     width: auto;
