@@ -3,32 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>WashingCon</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arvo|Eczar|Merriweather|Roboto+Slab" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d0e9be0862.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900|Merriweather:300,400,700,900" rel="stylesheet">
     <link rel='stylesheet' href='/css/main.css'>
   </head>
   <body>
-    <header>
-      <img class="banner-image" ui-sref="home" src="/images/WashingCon.jpg" alt="WashingCon Logo"/>
-      <h2 class="banner-subtitle">WASHINGTON DC'S OWN TABLETOP GAMING CONVENTION</h2>
-      <nav class="main-nav">
-        <div id="nav-line"></div>
-        <ul>
-          <li ui-sref="getinvolved">Get Involved</li>
-          <li ui-sref="sponsors">Sponsors</li>
-          <li ui-sref="contact">Contact</li>
-          <li ui-sref="about">About</li>
-          <li ui-sref="location">Location</li>
-          <li ui-sref="registration">Registration</li>
-          <li ui-sref="events">Events</li>
-        </ul>
-        <div class="clear-fix"></div>
-      </nav>
-    </header>
-    <section class="main-content" ui-view></section>
+    <div class="wrapper-for-sticky-footer">
+      <header>
+        <img class="banner-image" ui-sref="home" src="/images/WashingCon.jpg" alt="WashingCon Logo"/>
+        <h2 class="banner-subtitle">WASHINGTON DC'S OWN TABLETOP GAMING CONVENTION</h2>
+        <nav class="main-nav">
+          <div id="nav-line"></div>
+          <ul>
+            <li ui-sref="getinvolved">Get Involved</li>
+            <li ui-sref="sponsors">Sponsors</li>
+            <li ui-sref="contact">Contact</li>
+            <li ui-sref="about">About</li>
+            <li ui-sref="location">Location</li>
+            <li ui-sref="registration">Registration</li>
+            <li ui-sref="events">Events</li>
+          </ul>
+          <div class="clear-fix"></div>
+        </nav>
+      </header>
+      <section class="main-content" ui-view></section>
 
-    <div class="clear-fix"></div>
+      <div class="clear-fix"></div>
+      <div class="push-for-sticky-footer"></div>
+    </div>
+    <div class="footer">
+      <aside class="footer-links">
+        <a href="http://www.facebook.com/washingcon" target="_blank">
+          <div class="footer-link">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href="https://twitter.com/washingcondc" target="_blank">
+          <div class="footer-link">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+          </div>
+        </a>
+        <a href="mailto:contact@washingcon.com" target="_blank">
+          <div class="footer-link">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+        </a>
+      </aside>
+    </div>
 
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
     <script src='https://angular-ui.github.io/ui-router/release/angular-ui-router.js'></script>
