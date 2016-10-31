@@ -22,18 +22,20 @@ a{
   text-decoration: none;
 }
 
-
 .wrapper-for-sticky-footer{
+  position: relative;
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
   // This negative margin has to equal the height of the .footer and .push-for-sticky-footer.
-  margin: 0 auto -4em;
+  margin: 0 auto $footer-height*-1;
 }
 
-.footer, .push-for-sticky-footer{
+footer, .push-for-sticky-footer{
   // This height has to match the negative margin in .wrapper-for-sticky-footer.
-  height: 4em;
+  height: $footer-height;
+}
+
+footer{
+  border-top: $border;
 }
 
 .banner-image{
@@ -75,7 +77,7 @@ a{
   }
   #nav-line{
     width: 95%;
-    border-top: #E6E6E6 solid 2px;
+    border-top: $border;
     margin: auto;
     margin-top: 0px;
   }

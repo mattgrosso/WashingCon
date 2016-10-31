@@ -65,13 +65,15 @@ a {
   text-decoration: none; }
 
 .wrapper-for-sticky-footer {
+  position: relative;
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -4em; }
+  margin: 0 auto -30px; }
 
-.footer, .push-for-sticky-footer {
-  height: 4em; }
+footer, .push-for-sticky-footer {
+  height: 30px; }
+
+footer {
+  border-top: #E6E6E6 solid 2px; }
 
 .banner-image {
   display: block;
